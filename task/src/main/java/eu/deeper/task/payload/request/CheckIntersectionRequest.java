@@ -21,7 +21,7 @@ public class CheckIntersectionRequest {
         return square;
     }
 
-    public Line2D getLine() {
+    public Line2D.Double getLine() {
         return line;
     }
 }
