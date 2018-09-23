@@ -17,7 +17,7 @@ mvn spring-boot:run
 
 ## Usage
 
-**Intersection checking endpoint** accepts POST request with information about a square and a line. Example input and output can be found bellow.
+**Intersection checking endpoint at '/api/intersection'** accepts POST request with information about a square and a line. Example input and output can be found bellow.
 
 Input:
 
@@ -59,4 +59,4 @@ Output:
 
 *intersectionPoints* is an array of 4 Point objects, which contain coordinates where the objects intersect. Points in array represent intersected rectangle sides in a following sequence: top, bottom, left, right.
 
-**Active requests endpoint** can be reached with GET method, but it is protected with Basic Authentication, so it should include username and password (username: admin, password: secret). The response will contain one field *activeRequests*, which shows how many requests are currently being processed by this application (including this request).
+**Active requests endpoint at '/api/requests'** can be reached with GET method, but it is protected with Basic Authentication, so it should include username and password (username: admin, password: secret). The response will contain one field *activeRequests*, which shows how many requests are currently being processed by this application (including this request).
