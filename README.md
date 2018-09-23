@@ -11,7 +11,7 @@ Second one is a username and password protected endpoint, which returns informat
 Open a terminal window. Go into 'task' directory of this project and type the following commands into the terminal:
 
 ```shell
-mvn clean compile
+mvn clean install
 mvn spring-boot:run
 ```
 
